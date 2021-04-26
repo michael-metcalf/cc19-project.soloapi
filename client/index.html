@@ -8,5 +8,16 @@
   </head>
   <body>
     <h1>Welcome to Michael's Solo API Project!</h1>
+
+    <form action="http://127.0.0.1:9999/api/ddrscores/addscore" method="POST">
+      Song Title: <input type="text" , name="songTitle" /> <br />
+      Score: <input type="text" name="score" /> <br />
+      Combo: <input type="text" name="combo" /> <br />
+      Rank: <input type="text" name="rank" /> <br />
+      Difficulty: <input type="text" name="difficulty" /> <br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="../server.js"></script>
   </body>
 </html>
